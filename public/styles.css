@@ -1,0 +1,159 @@
+/* styles.css */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #d0d0d0;
+}
+
+.table th {
+    background-color: #3498db; /* Warna latar belakang header kolom */
+    color: #fff;
+}
+
+.table td {
+    background-color: #ecf0f1; /* Warna latar belakang sel data */
+}
+
+.table tr:hover {
+    background-color: #d5dbdb; /* Warna latar belakang saat hover pada baris */
+}
+
+.tabel-data {
+    background-color: #e1e4e6;
+    margin: 20px;
+}
+.small-button {
+    padding: 2px 4px; /* Atur padding sesuai kebutuhan */
+    font-size: 6px; /* Atur ukuran font sesuai kebutuhan */
+}
+#logoutButton {
+    margin-left: 550px;
+}
+#logoutButton:hover {
+    color: rgb(162, 58, 10);
+}
+
+/* modal */
+/* Gaya untuk modal */
+.modal9 {
+    position: fixed;
+    z-index: 1;
+    left: 50%; /* Pusat horizontal */
+    top: 50%; /* Pusat vertikal */
+    transform: translate(-50%, -50%); /* Mengatur posisi ke tengah */
+    color: #3498db;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 15% auto; /* Mengatur margin atas dan bawah untuk menjaga modal di tengah */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Mengurangi lebar modal menjadi setengah layar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Gaya untuk tombol Yes dan No */
+button#delete,
+button#noButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#yesButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fcdfdd;
+    background-color: #f44336;
+}
+
+#yesButton:hover {
+    color: #9f3636;
+    background-color: #ff0000;
+}
+button#delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+button#delete:hover {
+    background-color: #ff0000;
+}
+
+button#noButton {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button#noButton:hover {
+    background-color: #45a049;
+}
+
+/* Tombol X (penutup) di pojok kiri atas */
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 0; /* Mengatur posisi vertikal ke bagian atas */
+    right: 0; /* Mengatur posisi horizontal ke bagian kiri */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* chat admin*/
+    .content-chat {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    .chat-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #fff;
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+    .message {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+    }
+
+    .message p {
+        margin: 0;
+    }
